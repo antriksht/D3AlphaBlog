@@ -8,6 +8,7 @@ image: assets/images/
 rating: 4.0
 beforetoc: "This is a sample post demonstrating various Markdown functionalities."
 toc: true
+featured: true
 ---
 
 ## Introduction

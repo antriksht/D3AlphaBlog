@@ -5,9 +5,9 @@ author: Antriksh
 categories: [ Digital Transformation, Business Strategy ]
 tags: [digital transformation, frameworks, business strategy]
 image: assets/images/digital_transformation.jpg
-rating: 4.5
 beforetoc: "Explore the essentials of digital transformation and what to look for when transforming your business."
-toc: true
+toc: false
+featured: true
 ---
 
 ## Introduction
