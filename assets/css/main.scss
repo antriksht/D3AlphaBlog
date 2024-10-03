@@ -3,6 +3,11 @@
 # Change this file for any custom CSS.
 ---
 
+// Apply the AvantGarde and TradeGothic fonts to the body
+body {
+	font-family: 'AvantGarde', 'TradeGothic' , 'casper-icons';
+}
+
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
 	display:inline;

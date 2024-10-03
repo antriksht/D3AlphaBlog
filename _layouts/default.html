@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
 
 <title>{{ page.title }} | {{site.name}}</title>
 
@@ -123,9 +123,11 @@ ga('send', 'pageview');
     {{ content }}
 </div>
 
-{% if site.mailchimp-list %}
+<!--
+{% if site.mailchimp-list %} -- > 
 <!-- Bottom Alert Bar
 ================================================== -->
+<!--
 <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
@@ -138,7 +140,7 @@ ga('send', 'pageview');
 	</div>
 </div>
 {% endif %}
-    
+--> 
 </div>
 
 <!-- Categories Jumbotron
@@ -175,7 +177,7 @@ ga('send', 'pageview');
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+                <a target="_blank" href="https://d3alpha.com/">A Crayola Blog</a> by D3Alpha
             </div>
         </div>
     </div>
